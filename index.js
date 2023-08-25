@@ -6,9 +6,6 @@ exports.handler = async (event, context) => {
     const secret_key = '<--reCAPTCHAv2 secrey key-->';
     const region = '<--region-->';
 
-    const name = body.name;
-    const message = body.message;
-    const email = body.email;
     const response_key = body["g-recaptcha-response"];
 
     let url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${response_key}`;
