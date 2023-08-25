@@ -1,5 +1,5 @@
 # aws_lambda_google_recaptcha
-lambda_contact_form_ses is a NodeJS-based lambda application utilizing function URLs to receive POST request from contact form actions
+aws_lambda_google_recaptcha is a NodeJS-based lambda application utilizing function URLs to receive POST request from contact form actions
 
 # Setting Up
 * Modify the values in the application to the following variables. (Can also pass these via environment variables, or through lambda event itself)

@@ -3,4 +3,4 @@ rm -rf node_modules/
 yarn install --production --no-progress
 
 # zip entire app into a package
-zip -q -r lambda_contact_form_ses.zip . -x "*.git*"
+zip -q -r aws_lambda_google_recaptcha.zip . -x "*.git*"
